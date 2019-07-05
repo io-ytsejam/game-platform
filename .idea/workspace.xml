@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99ec343b-88c8-4991-b961-e52abb80819d" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.babelrc&#10;#&#9;app.scss&#10;#&#9;node_modules/body-parser/package.json&#10;#&#9;node_modules/cookie-parser/package.json&#10;#&#9;package-lock.json&#10;#&#9;package.json&#10;#&#9;public/git.css&#10;#&#9;public/index.html&#10;#&#9;public/sketch.js&#10;#&#9;routes/index.js&#10;#&#9;socket.js&#10;#&#9;src/AddUser.js&#10;#&#9;src/App.js&#10;#&#9;src/App.test.js&#10;#&#9;src/GameBegin.js&#10;#&#9;src/GameChat.js&#10;#&#9;src/LoginPanel.js&#10;#&#9;src/MessageHolder.js&#10;#&#9;src/SendData.js&#10;#&#9;src/UsersFloat.js&#10;#&#9;src/index.js&#10;#&#9;src/style.css&#10;#&#9;webpack.config.js">
+      <change beforePath="$PROJECT_DIR$/###webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/###webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/socket.io.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/###App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBegin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBegin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvitationMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvitationMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoggedUserPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoggedUserPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessageHolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHolder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SendData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SendData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UsersFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsersFloat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activeUsers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeUsers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loginToGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/loginToGame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saveCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/saveCookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/invitation_message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/invitation_message.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <list id="cada7f0e-180f-41ad-9ab6-060a02dfbf38" name="Revert: Fuck me" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myapp-backend" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Game.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5184">
+                  <caret line="292" selection-start-line="292" selection-end-line="292" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sktch.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/rotateIcons.js">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/GameOver.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="146">
+                  <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/LoginPanel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1512">
+                  <caret line="90" column="54" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2286">
+                  <caret line="133" selection-start-line="133" selection-end-line="133" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/loginToGame.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="954">
+                  <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/SendData.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/@material/fab/_mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3294">
+                  <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/UsersFloat.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2124">
+                  <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="horizontal" split-proportion="0.4753219">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="684">
+                      <caret line="38" selection-start-line="38" selection-end-line="38" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1062">
+                      <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/style.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="4644">
+                      <caret line="258" column="15" selection-start-line="258" selection-start-column="15" selection-end-line="258" selection-end-column="15" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/routes/index.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="126">
+                      <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/index.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="200">
+                      <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/activeUsers.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="288">
+                      <caret line="16" selection-start-line="16" selection-end-line="16" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/public/sketch.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="340">
+                      <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/socket.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="612">
+                      <caret line="34" selection-start-line="34" selection-end-line="34" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/GameBegin.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1080">
+                      <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+                      <folding>
+                        <element signature="e#0#41#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>icon</find>
+      <find>gameOver</find>
+      <find>za</find>
+      <find>myCustomRedrawAccordingToNewPropsHandler</find>
+      <find>setL</find>
+      <find>fr</find>
+      <find>setup</find>
+      <find>your</find>
+      <find>100, 1</find>
+      <find>while</find>
+      <find>draw</find>
+      <find>snake</find>
+      <find>snake(</find>
+      <find>await</find>
+      <find>player</find>
+      <find>over</find>
+      <find>redra</find>
+      <find>#score</find>
+      <find>fetch</find>
+      <find>json</find>
+      <find>POST</find>
+      <find>redraw</find>
+      <find>trea</find>
+      <find>metho</find>
+      <find>body</find>
+      <find>stat</find>
+      <find>fe</find>
+      <find>continue-overlay</find>
+      <find>gameO</find>
+      <find>192.168.1.13</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>handleSendMessage</replace>
+      <replace>color</replace>
+      <replace>snake.move</replace>
+      <replace>192.168.1.13</replace>
+      <replace>this.buffMoveX[i]</replace>
+      <replace>this.buffMoveY[i]</replace>
+      <replace>rX</replace>
+      <replace>snake.moveX</replace>
+      <replace>snake.moveY</replace>
+      <replace>rY</replace>
+      <replace>snake.length</replace>
+      <replace>this.speed</replace>
+      <replace>localhost</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AddUser.js" />
+        <option value="$PROJECT_DIR$/###webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/saveCookie.js" />
+        <option value="$PROJECT_DIR$/src/App.test.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/SendData.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/src/scss/invitation_message.js.scss" />
+        <option value="$PROJECT_DIR$/src/scss/invitation_message.scss" />
+        <option value="$PROJECT_DIR$/src/InvitationMessage.js" />
+        <option value="$PROJECT_DIR$/src/activeUsers.css" />
+        <option value="$PROJECT_DIR$/src/GameChat.js" />
+        <option value="$PROJECT_DIR$/node_modules/@material/fab/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/GameBegin.js" />
+        <option value="$PROJECT_DIR$/src/sktch.js" />
+        <option value="$PROJECT_DIR$/public/sketch.js" />
+        <option value="$PROJECT_DIR$/socket.js" />
+        <option value="$PROJECT_DIR$/src/UsersFloat.js" />
+        <option value="$PROJECT_DIR$/src/LoggedUserPanel.js" />
+        <option value="$PROJECT_DIR$/src/LoginPanel.js" />
+        <option value="$PROJECT_DIR$/src/sketch.js" />
+        <option value="$PROJECT_DIR$/src/loginToGame.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Game.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/GameOver.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myapp-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myapp-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myapp-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myapp-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myapp-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myapp-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myapp-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myapp-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.12.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99ec343b-88c8-4991-b961-e52abb80819d" name="Default Changelist" comment="" />
+      <changelist id="cada7f0e-180f-41ad-9ab6-060a02dfbf38" name="Revert: Fuck me" comment="" />
+      <created>1549749737177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549749737177</updated>
+      <workItem from="1549749741255" duration="14153000" />
+      <workItem from="1549911669268" duration="609000" />
+      <workItem from="1550085481138" duration="9918000" />
+      <workItem from="1550231706584" duration="2969000" />
+      <workItem from="1550395157327" duration="6276000" />
+      <workItem from="1550651229448" duration="67000" />
+      <workItem from="1551471746062" duration="22000" />
+      <workItem from="1552240439507" duration="145000" />
+      <workItem from="1552599813796" duration="26000" />
+      <workItem from="1553345448325" duration="74000" />
+      <workItem from="1553720198450" duration="2783000" />
+      <workItem from="1553954713384" duration="12755000" />
+      <workItem from="1553983507340" duration="24643000" />
+      <workItem from="1554069839050" duration="3568000" />
+      <workItem from="1554227167257" duration="39000" />
+      <workItem from="1554552751759" duration="26912000" />
+      <workItem from="1554879989548" duration="5108000" />
+      <workItem from="1554893591522" duration="2926000" />
+      <workItem from="1554979350754" duration="503000" />
+      <workItem from="1554979875986" duration="8000" />
+      <workItem from="1554979946557" duration="401000" />
+      <workItem from="1554980418034" duration="186000" />
+      <workItem from="1554980831068" duration="28698000" />
+      <workItem from="1555084086667" duration="14783000" />
+      <workItem from="1555171017174" duration="26424000" />
+      <workItem from="1555271132000" duration="6000" />
+      <workItem from="1555271185408" duration="1387000" />
+      <workItem from="1555536824573" duration="4672000" />
+      <workItem from="1555587325577" duration="2034000" />
+      <workItem from="1555593274456" duration="25050000" />
+      <workItem from="1556651237463" duration="48000" />
+      <workItem from="1557172128805" duration="19000" />
+      <workItem from="1558452189572" duration="13000" />
+      <workItem from="1561466994181" duration="241000" />
+      <workItem from="1561561552347" duration="9017000" />
+      <workItem from="1561576960572" duration="12563000" />
+      <workItem from="1561654785555" duration="1434000" />
+      <workItem from="1561663172758" duration="17375000" />
+      <workItem from="1561733145981" duration="17906000" />
+      <workItem from="1561811046541" duration="7624000" />
+      <workItem from="1561822419919" duration="1242000" />
+      <workItem from="1561895920619" duration="9687000" />
+      <workItem from="1561910594157" duration="11686000" />
+      <workItem from="1561922686688" duration="30000" />
+      <workItem from="1561922800072" duration="184000" />
+      <workItem from="1561923025345" duration="10236000" />
+      <workItem from="1561978385842" duration="12634000" />
+      <workItem from="1562019616296" duration="581000" />
+      <workItem from="1562061304505" duration="1584000" />
+      <workItem from="1562072267579" duration="22799000" />
+      <workItem from="1562365212784" duration="61000" />
+      <workItem from="1562365386908" duration="164000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fuck me">
+      <created>1554070273890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554070273890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="355866000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49204546" visible="true" weight="0.14059196" />
+      <window_info id="Structure" order="1" sideWeight="0.50795454" side_tool="true" visible="true" weight="0.14059196" />
+      <window_info id="npm" order="2" side_tool="true" weight="0.32939914" />
+      <window_info id="Favorites" order="3" sideWeight="0.50403875" side_tool="true" weight="0.1406744" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893162" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947146" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49947146" weight="0.32936078" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106835" side_tool="true" weight="0.32713348" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Fuck me" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.babelrc&#10;#&#9;app.scss&#10;#&#9;node_modules/body-parser/package.json&#10;#&#9;node_modules/cookie-parser/package.json&#10;#&#9;package-lock.json&#10;#&#9;package.json&#10;#&#9;public/git.css&#10;#&#9;public/index.html&#10;#&#9;public/sketch.js&#10;#&#9;routes/index.js&#10;#&#9;socket.js&#10;#&#9;src/AddUser.js&#10;#&#9;src/App.js&#10;#&#9;src/App.test.js&#10;#&#9;src/GameBegin.js&#10;#&#9;src/GameChat.js&#10;#&#9;src/LoginPanel.js&#10;#&#9;src/MessageHolder.js&#10;#&#9;src/SendData.js&#10;#&#9;src/UsersFloat.js&#10;#&#9;src/index.js&#10;#&#9;src/style.css&#10;#&#9;webpack.config.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.babelrc&#10;#&#9;app.scss&#10;#&#9;node_modules/body-parser/package.json&#10;#&#9;node_modules/cookie-parser/package.json&#10;#&#9;package-lock.json&#10;#&#9;package.json&#10;#&#9;public/git.css&#10;#&#9;public/index.html&#10;#&#9;public/sketch.js&#10;#&#9;routes/index.js&#10;#&#9;socket.js&#10;#&#9;src/AddUser.js&#10;#&#9;src/App.js&#10;#&#9;src/App.test.js&#10;#&#9;src/GameBegin.js&#10;#&#9;src/GameChat.js&#10;#&#9;src/LoginPanel.js&#10;#&#9;src/MessageHolder.js&#10;#&#9;src/SendData.js&#10;#&#9;src/UsersFloat.js&#10;#&#9;src/index.js&#10;#&#9;src/style.css&#10;#&#9;webpack.config.js" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/color-picker-master/color-picker.scroll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@mrmlnc/readdir-enhanced/lib/async/for-each.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300600">
+          <caret line="16713" column="4" selection-start-line="16713" selection-start-column="4" selection-end-line="16713" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/sketch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageHolder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/react-button-overrides.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvitationMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/socket.io.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16329" selection-start-line="5" selection-start-column="16329" selection-end-line="5" selection-end-column="16329" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/invitation_message.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/color-picker-master/color-picker.fit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/p5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="55127" selection-start-line="55127" selection-end-line="55127" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="715" column="14" selection-start-line="715" selection-start-column="14" selection-end-line="715" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ts" />
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="774" column="32" lean-forward="true" selection-start-line="774" selection-start-column="32" selection-end-line="774" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#76#115#0" expanded="true" />
+            <element signature="e#251#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5184">
+          <caret line="292" selection-start-line="292" selection-end-line="292" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sktch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rotateIcons.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="90" column="54" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2286">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loginToGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SendData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material/fab/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UsersFloat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4644">
+          <caret line="258" column="15" selection-start-line="258" selection-start-column="15" selection-end-line="258" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activeUsers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameBegin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

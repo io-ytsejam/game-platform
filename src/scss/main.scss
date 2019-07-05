@@ -1,0 +1,62 @@
+body{
+  background: antiquewhite;
+}
+
+/*
+No i ja się Ciebie pyta, dumny Ty jesteś z siebie?
+Masz ty w ogóle rozum i godność człowieka?
+*/
+
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/react-button/index.scss";
+@import "react-button-overrides";
+@import '@material/react-icon-button/index.scss';
+@import '@material/react-top-app-bar/index.scss';
+@import '@material/react-material-icon/index.scss';
+@import '@material/react-text-field/index.scss';
+
+
+.password-text-field.mdc-text-field:not(.lower-floating-label) {
+  @include mdc-text-field-outline-color(rgba(0, 0, 0, 0));
+  @include mdc-text-field-hover-outline-color(adjust_hue(crimson, 20));
+  @include mdc-text-field-outline-shape-radius(40px, false);
+  @include mdc-text-field-fill-color(white);
+  @include mdc-text-field-focused-outline-color(crimson);
+  @include mdc-text-field-label-color(rgba(0, 0, 0, 0.6));
+
+  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+}
+
+.mdc-floating-label--float-above{
+  color: antiquewhite;
+  text-decoration-style: dotted;
+  top: 20px;
+}
+.mdc-text-field:focus{
+  font-size: 40px;
+}
+
+.main-header {
+  box-shadow: 0 0 19px -1px rgb(36, 36, 36);
+  max-width: 1600px;
+}
+
+.mdc-top-app-bar {
+  @include mdc-top-app-bar-fill-color(lighten(black, 8));
+  @include mdc-top-app-bar-ink-color(antiquewhite);
+  @include mdc-top-app-bar-icon-ink-color(antiquewhite);
+  max-width: 1600px;
+}
+
+#submit-name {
+  @include mdc-button-container-fill-color(darken(crimson, 8));
+}
+
+$mdc-theme-secondary: #feeae6;
+@import '@material/react-fab/index.scss';
+
+.expand_less {
+  @include mdc-fab-container-color(rgb(20, 20, 20));
+}

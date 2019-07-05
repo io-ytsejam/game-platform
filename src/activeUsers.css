@@ -1,0 +1,16 @@
+div.user {
+    background: teal;
+    color: #fab19b;
+    width: 65px;
+    height: 65px;
+    margin: 3px;
+    border-radius: 65px;
+    box-shadow: black 2px 1px 9px 0px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+div.user > p{
+    margin: 19px 19px;
+}
