@@ -160,7 +160,6 @@ class LoginPanel extends Component {
               Zaloguj
             </Button>
             <Button
-                {/*It suppose to be Fab*/}
                 id={"collapsed"}
                 onClick={() => this.collapseLoginPanel()}
                 icon={<span className="material-icons">expand_less</span>}
