@@ -55,8 +55,8 @@ Masz ty w ogóle rozum i godność człowieka?
 }
 
 $mdc-theme-secondary: #feeae6;
-@import '@material/react-fab/index.scss';
+//@import '@material/react-fab/index.scss';
 
 .expand_less {
-  @include mdc-fab-container-color(rgb(20, 20, 20));
+  //@include mdc-fab-container-color(rgb(20, 20, 20));
 }

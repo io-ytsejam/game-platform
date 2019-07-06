@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AddUser from './AddUser.js'
 import './style.css';
 import Button from '@material-ui/core/Button';
-import Fab from '@material/react-fab';
+// import Fab from '@material/react-fab';
 import { loginToGame } from "./loginToGame";
 
 // This is official MDC:
@@ -164,7 +164,7 @@ class LoginPanel extends Component {
                 id={"collapsed"}
                 onClick={() => this.collapseLoginPanel()}
                 icon={<span className="material-icons">expand_less</span>}
-                className={"mdc-fab--mini expand_less"}
+                // className={"mdc-fab--mini expand_less"}
                 color="primary"
                 style={{
                   marginTop: "20px",
