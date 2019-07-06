@@ -31,6 +31,8 @@ nie zostanie usunięty z bazy aktywnych graczy
 
 * Po sklonowaniu repozytorium, należy w katalogu głównym aplikacji wydać polecenie `npm install`
 
+* W katalogu znajdują się pliki umożliwiające odtworzenie tabel bazy danych, oraz baza z kilkoma przykładowymi urzytkownikami
+
 * Aby uruchomić frontend, domyślnie na porcie 3000: `npm start`
 
 * Backend uruchamiany jest za pomocą polecenia: `node bin/www`
