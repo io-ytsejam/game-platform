@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99ec343b-88c8-4991-b961-e52abb80819d" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.babelrc&#10;#&#9;app.scss&#10;#&#9;node_modules/body-parser/package.json&#10;#&#9;node_modules/cookie-parser/package.json&#10;#&#9;package-lock.json&#10;#&#9;package.json&#10;#&#9;public/git.css&#10;#&#9;public/index.html&#10;#&#9;public/sketch.js&#10;#&#9;routes/index.js&#10;#&#9;socket.js&#10;#&#9;src/AddUser.js&#10;#&#9;src/App.js&#10;#&#9;src/App.test.js&#10;#&#9;src/GameBegin.js&#10;#&#9;src/GameChat.js&#10;#&#9;src/LoginPanel.js&#10;#&#9;src/MessageHolder.js&#10;#&#9;src/SendData.js&#10;#&#9;src/UsersFloat.js&#10;#&#9;src/index.js&#10;#&#9;src/style.css&#10;#&#9;webpack.config.js">
-      <change beforePath="$PROJECT_DIR$/###webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/###webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/socket.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/###App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js.backup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameBegin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBegin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameChat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvitationMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvitationMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoggedUserPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoggedUserPanel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageHolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessageHolder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SendData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SendData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UsersFloat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UsersFloat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activeUsers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeUsers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loginToGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/loginToGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saveCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/saveCookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/invitation_message.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/invitation_message.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ścierwo/###App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ścierwo/App.css#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ścierwo/App.js.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ścierwo/App.test.js" beforeDir="false" />
     </list>
     <list id="cada7f0e-180f-41ad-9ab6-060a02dfbf38" name="Revert: Fuck me" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -82,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/GameOver.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="146">
-                  <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+                <state relative-caret-position="218">
+                  <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -343,13 +317,13 @@
         <option value="$PROJECT_DIR$/socket.js" />
         <option value="$PROJECT_DIR$/src/UsersFloat.js" />
         <option value="$PROJECT_DIR$/src/LoggedUserPanel.js" />
-        <option value="$PROJECT_DIR$/src/LoginPanel.js" />
         <option value="$PROJECT_DIR$/src/sketch.js" />
         <option value="$PROJECT_DIR$/src/loginToGame.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Game.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/src/GameOver.js" />
+        <option value="$PROJECT_DIR$/src/LoginPanel.js" />
       </list>
     </option>
   </component>
@@ -364,6 +338,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,7 +366,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,6 +455,7 @@
       <workItem from="1562072267579" duration="22799000" />
       <workItem from="1562365212784" duration="61000" />
       <workItem from="1562365386908" duration="164000" />
+      <workItem from="1562409540341" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck me">
       <created>1554070273890</created>
@@ -493,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355866000" />
+    <option name="totallyTimeSpent" value="355949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,10 +481,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49204546" visible="true" weight="0.14059196" />
-      <window_info id="Structure" order="1" sideWeight="0.50795454" side_tool="true" visible="true" weight="0.14059196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4909091" visible="true" weight="0.14059196" />
+      <window_info id="Structure" order="1" sideWeight="0.5090909" side_tool="true" visible="true" weight="0.14059196" />
       <window_info id="npm" order="2" side_tool="true" weight="0.32939914" />
       <window_info id="Favorites" order="3" sideWeight="0.50403875" side_tool="true" weight="0.1406744" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -864,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameOver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+        <state relative-caret-position="218">
+          <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
