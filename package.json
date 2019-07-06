@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode production",
+    "start": "node bin/www",
     "build": "webpack --mode production"
+    "heroku-postbuild": "webpack -p"
   },
   "dependencies": {
     "@material/drawer": "^0.44.0",
