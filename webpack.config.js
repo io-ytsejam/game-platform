@@ -61,8 +61,8 @@ module.exports = {
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
-    path: path.resolve(__dirname, "dist/"),
-    publicPath: "/dist/",
+    path: path.resolve(__dirname, "build"),
+    publicPath: "/",
     filename: "bundle.js"
   },
   // entry: './app.scss',
