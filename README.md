@@ -1,4 +1,4 @@
-# Snake game platform
+ # Snake game platform
 Ta oto nieduża aplikacja została stworzona przy pomocy technologii takich jak:
 * JavaScript, CSS/SCSS, HTML
 * Node.js
@@ -24,5 +24,22 @@ którego, można wysłać innemu graczowi zaproszenie do czatu, a w przyszłośc
 W planach jest także dodanie trybu multiplayer
 
 ### Znane błędy
-* Jeżeli aplikacja nie zostanie zamknięta przez zamknięcie karty przeglądarki, bądź nie zostanie odświeżona, użytkownik 
+* Jeżeli aplikacja nie zostanie zamknięta przez **zamknięcie karty przeglądarki**, bądź nie zostanie odświeżona, użytkownik 
 nie zostanie usunięty z bazy aktywnych graczy  
+
+### Instalacja i uruchomienie
+
+* Po sklonowaniu repozytorium, należy w katalogu głównym aplikacji wydać polecenie `npm install`
+
+* Aby uruchomić frontend, domyślnie na porcie 3000: `npm start`
+
+* Backend uruchamiany jest za pomocą polecenia: `node bin/www`
+
+* Serwer socket.io uruchomić przy pomocy `node socket.js`
+
+#### Notka końcowa
+
+Zdaje sobie sprawę z mocno wczesnego etapu rozwoju mojej aplikacji, aczkolwiek spowodowane jest to jedynie ograniczeniem 
+czasowym, powstałym przez pewne okoliczności, które zmusiły mnie do aplikowania o pracę już teraz.
+
+Aplikacja stworzona przez Marcina Skrzymowskiego
