@@ -31,7 +31,7 @@ zamknięta bez wcześniejszego przeładowania, użtkownik zostanie w bazie aktyw
 
 * Po sklonowaniu repozytorium, należy w katalogu głównym aplikacji wydać polecenie `npm install`
 
-* W katalogu znajdują się pliki umożliwiające odtworzenie tabel bazy danych, oraz baza z kilkoma przykładowymi urzytkownikami
+* W katalogu znajduje się plik `snik_data.sql` umożliwiający odtworzenie tabel bazy danych, oraz bazy z kilkoma przykładowymi urzytkownikami
 
 * Aby uruchomić frontend, domyślnie na porcie 3000: `npm start`
 
