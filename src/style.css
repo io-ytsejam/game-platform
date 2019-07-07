@@ -220,18 +220,19 @@ p#logged-as{
   text-decoration-color: red;
 }
 .close{
-  width: 60px;
-  height: 60px;
-  background: black;
-  transition: background 1s ease;
-  position: absolute;
-  border-bottom-left-radius: 25px;
-  border-top-right-radius: 25px;
-  top: -1px;
-  right: -1px;
-  padding: 8px 8px;
-  box-sizing: border-box;
-  cursor: pointer;
+    box-shadow: 4px 3px 5px black;
+    width: 60px;
+    height: 60px;
+    background: black;
+    transition: background 1s ease;
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    top: -1px;
+    right: -1px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 .close-sign{
   transition: transform .5s ease;

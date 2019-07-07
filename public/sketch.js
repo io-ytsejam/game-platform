@@ -21,7 +21,7 @@ function gameBegin() {
 let x = y = 210, draws = -1;
 
 let players = 0;
-fetch('http://localhost:3005/api')
+fetch('http://192.168.1.13:3005/api')
   .then((response) => {
     return response.json();
   })
@@ -305,7 +305,7 @@ function showLeaderboard() {
 
 
 for (let close of document.querySelectorAll('.close')) {
-  close.addEventListener("click", () => closePopup(close.parentElement));
+  close.addEventListener("click", () => document.location.reload()/*closePopup(close.parentElement)*/);
 }
 
 document.querySelectorAll('.popup')[0].firstElementChild.addEventListener("click", () => {
@@ -636,10 +636,9 @@ messageInput.addEventListener('click', (e) => {
 });
 
 function loginToGame(pass) {
-  // alert(`Gitarka! ${pass}`);
   if (sha256(pass.target.value) === currentPlayer.password) {
 
-    fetch('http://localhost:3005/login-user', {
+    fetch('http://192.168.1.13:3005/login-user', {
       method: 'get',
       credentials: 'include',
       mode: 'no-cors',

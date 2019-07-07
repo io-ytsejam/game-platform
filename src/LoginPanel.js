@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AddUser from './AddUser.js'
 import './style.css';
 import Button from '@material-ui/core/Button';
-// import Fab from '@material/react-fab';
+import Fab from '@material/react-fab';
 import { loginToGame } from "./loginToGame";
 
 // This is official MDC:
@@ -71,7 +71,6 @@ class LoginPanel extends Component {
     };
     let floatingLabel = document.querySelector(".mdc-floating-label");
     floatingLabel.style.top = '19px';
-    console.log('Gitarka!1!1');
   }
 
   handleTopChangeBlur(e) {
@@ -82,8 +81,6 @@ class LoginPanel extends Component {
     let pass = document.querySelector('.mdc-pass');
     if (pass.value == "")
     floatingLabel.style.top = '13px';
-    // floatingLabel.style = moveTopStyle;
-    console.log('Gitarka!1!1');
   }
 
   handleSubmitLogin(e) {
@@ -159,11 +156,12 @@ class LoginPanel extends Component {
                 variant="contained" color="primary">
               Zaloguj
             </Button>
-            <Button
+          </MuiThemeProvider>
+            <Fab
                 id={"collapsed"}
                 onClick={() => this.collapseLoginPanel()}
                 icon={<span className="material-icons">expand_less</span>}
-                // className={"mdc-fab--mini expand_less"}
+                className={"mdc-fab--min expand_less"}
                 color="primary"
                 style={{
                   marginTop: "20px",
@@ -172,7 +170,6 @@ class LoginPanel extends Component {
                   right: "10px"
                 }}
             />
-          </MuiThemeProvider>
       </div>
         { this.props.addUserActive ? <AddUser
             userAdded={this.props.userAdded}

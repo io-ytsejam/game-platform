@@ -52,7 +52,7 @@ class AddUser extends Component{
   handleSubmit(event) {
     // alert('A name was submitted: ' + this.state.value);
 
-    fetch("http://localhost:3005/new-user", {
+    fetch("http://192.168.1.13:3005/new-user", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -79,8 +79,6 @@ class AddUser extends Component{
   handleAddUser() {
     console.log(this.state.name);
     console.log(this.state.color);
-    console.log(sha256(this.state.password));
-
   }
 
   handleFocus(event) {

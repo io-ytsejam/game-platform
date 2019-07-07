@@ -15,7 +15,7 @@ class GameChat extends Component{
     constructor(props){
         super(props);
         this.state = {
-            message: "Gitarka",
+            message: "",
             clouds: [],
             sentOrReceived: [],
             letScroll: true
@@ -73,7 +73,7 @@ class GameChat extends Component{
 
                 let fetchedID;
 
-                fetch("http://localhost:3005/chat-bro",
+                fetch("http://192.168.1.13:3005/chat-bro",
                     {
                         headers: {
                             "Content-Type": "application/json"

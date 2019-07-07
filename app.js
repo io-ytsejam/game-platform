@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use(cors({credentials: true}));
 
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://192.168.1.13:3000');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type', 'Access-Control-Allow-Origin', 'Origin');
   res.setHeader('Access-Control-Allow-Credentials', true);

@@ -27,6 +27,7 @@ class UsersFloat extends Component {
     this.handleClick = this.handleClick.bind(this);
     this.userAdded = this.userAdded.bind(this);
     this.setCurrentPlayer = this.setCurrentPlayer.bind(this);
+    this.collapseLoginPanel = this.collapseLoginPanel.bind(this);
   }
 
   handleClick(e) {
@@ -44,13 +45,16 @@ class UsersFloat extends Component {
     this.state.currentPlayer.password =
         this.state.users[(parseInt(e.target.getAttribute("id") || e.target.parentNode.getAttribute("id")))].password;
 
+    this.state.currentPlayer.score =
+        this.state.users[(parseInt(e.target.getAttribute("id") || e.target.parentNode.getAttribute("id")))].score;
+
     handleLogin(e.target, this);
   }
 
   userAdded() {
     console.log("updating...");
     this.setState({ active: !this.state.active });
-    fetch('http://localhost:3005/api')
+    fetch('http://192.168.1.13:3005/api')
         .then((response) => {
           return response.json();
         })
@@ -65,7 +69,7 @@ class UsersFloat extends Component {
 
 
   componentDidMount() {
-    fetch('http://localhost:3005/api')
+    fetch('http://192.168.1.13:3005/api')
       .then((response) => {
         return response.json();
       })
@@ -92,6 +96,19 @@ class UsersFloat extends Component {
             parseInt(window.getComputedStyle(lastPlayer).getPropertyValue("width")) +
             parseInt(window.getComputedStyle(lastPlayer).getPropertyValue("width")) - 25 + "px";*/
       }
+    }
+  }
+
+  collapseLoginPanel() {
+    const loginPanel = document.querySelector('#login-panel');
+    if (loginPanel.style.display !== "none") {
+      loginPanel.style.transition = 'height 0.4s ease, padding 0.4s ease';
+      const expand_less = document.querySelector(".expand_less");
+      expand_less.classList.add("collapsed");
+      document.querySelector(".expand_less").setAttribute("id", "collapsed");
+      /*loginPanel.style.height = "0";
+      loginPanel.style.padding = "0";*/
+      loginPanel.style.display = "none";
     }
   }
 
@@ -125,7 +142,10 @@ class UsersFloat extends Component {
                     id={key}
                     // onDoubleClick={e => this.props.statingFun(2)}
                     onDoubleClick={e => this.props.onGameBegin(true)}
-                    onClick={this.handleClick}
+                    onClick={e => {
+                      this.setState({ active: false });
+                      this.handleClick(e);
+                    }}
                     style={{
                       background: val.color,
                       boxShadow: "2px 1px 9px 0 " + getHsl(val.color, 10)
@@ -136,7 +156,10 @@ class UsersFloat extends Component {
           })}
           <div
               id={"submit-name"}
-              onClick={ () => {this.setState({ active: !this.state.active })} }
+              onClick={ () => {
+                this.collapseLoginPanel();
+                this.setState({ active: !this.state.active })
+              } }
               className="floating-user"
               style={{
                 background: "rgb(49, 131, 227)"

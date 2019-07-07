@@ -24,8 +24,8 @@ którego, można wysłać innemu graczowi zaproszenie do czatu, a w przyszłośc
 W planach jest także dodanie trybu multiplayer
 
 ### Znane błędy
-* Jeżeli aplikacja nie zostanie zamknięta przez **zamknięcie karty przeglądarki**, bądź nie zostanie odświeżona, użytkownik 
-nie zostanie usunięty z bazy aktywnych graczy  
+* Użytkownik przestaje być aktywny po odświeżeniu strony. Jeżeli przeglądarka, lub jej karta z aplikacją zostanie 
+zamknięta bez wcześniejszego przeładowania, użtkownik zostanie w bazie aktywych graczy  
 
 ### Instalacja i uruchomienie
 

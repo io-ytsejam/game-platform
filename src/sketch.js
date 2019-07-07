@@ -665,7 +665,6 @@ function hidePanel(delay) {
     checkIfTyping = true;
   }, delay);
 }
-console.log("Gitara");
 
 const socket = io();
 console.log(`Socket: ${socket}`);
@@ -770,7 +769,7 @@ let mongoUsers;
 * _________________________________*
 */
 // setTimeout(() => {
-//   fetch('http://localhost:3000/api/users')
+//   fetch('http://192.168.1.13:3000/api/users')
 //     .then(function(response) {
 //       return response.json();
 //     })

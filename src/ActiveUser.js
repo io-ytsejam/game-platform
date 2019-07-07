@@ -44,11 +44,11 @@ class ActiveUser extends Component {
                     console.log(`ID selected: ${document.cookie}`);
                     if (this.props.opponentPlayer.id === -1) {
                         this.props.invite(this.props.socket_id, this.props.loggedPlayer.name, this.props.socket.id);
-                        console.log(`AAAAAAAAAAAKILLMEEE: ${this.props.socket.id}`);
+                        console.log(`${this.props.socket.id}`);
                     }
                 }}
                 className={"user"}
-                title={this.props.name}
+                title={"Kliknij, by wysłać zaproszenie do " + this.props.name}
                 style={{background: this.props.color}}>
                 { this.initialOrPic(this.props.pic) }
             </div>

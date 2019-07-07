@@ -13,7 +13,7 @@ class InvitationMessage extends Component{
                 name: "Luigi",
                 id: 1
             }
-        }
+        };
 
         // const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
         this.handleAcceptInvitation = this.handleAcceptInvitation.bind(this);
@@ -33,19 +33,36 @@ class InvitationMessage extends Component{
     }
 
     handleRejectInvitation() {
-
+        let inv = document.querySelector(".im");
+        inv.style.height = "0px";
+        inv.style.boxShadow = "none";
+        setTimeout(()=>{
+            inv.style.transition = "none";
+            this.props.closeInvitation();
+        }, 400);
     }
 
     handleIgnoreInvitation() {
-
+        let inv = document.querySelector(".im");
+        inv.style.height = "0px";
+        inv.style.boxShadow = "none";
+        setTimeout(()=>{
+            inv.style.transition = "none";
+            this.props.closeInvitation();
+        }, 400);
     }
 
     handleAcceptInvitation(e) {
         this.props.socket.emit("invitationResponse", {
             senderId: this.props.senderSocketId,
-            response: "accepted"
-
+            response: "accepted",
+            name: this.props.loggedPlayer.name
         });
+
+        this.props.setOpponentPlayer({id: this.props.senderSocketId, name: this.props.playerName, score: "", color: ""});
+
+
+        document.cookie = `bro=${this.props.senderSocketId}`;
 
         console.log(`Sender ID: ${this.props.senderSocketId}`);
 
@@ -63,10 +80,10 @@ class InvitationMessage extends Component{
             <div className={"im"}>
                 <div>
                     <h3 className={"title"}>
-                        Gracz {this.props.playerName} chce z Tobą zagrać <br></br>
+                        Gracz {this.props.playerName} chce z Tobą zagrać <br/>
                         Akceptujesz zaproszenie?
                     </h3>
-                    <hr style={{borderColor: "#871311", marginBottom: "0"}}></hr>
+                    <hr style={{borderColor: "#871311", marginBottom: "0"}}/>
                     <button style={{margin: "15px"}} onClick={(e)=>{this.handleAcceptInvitation(e)}} className={"mdc-button"}>
                         <span className={"mdc-button__label accept"}>Akceptuj</span>
                     </button>

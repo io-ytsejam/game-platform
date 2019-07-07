@@ -50,13 +50,19 @@ Masz ty w ogóle rozum i godność człowieka?
   max-width: 1600px;
 }
 
+#start-game {
+  @include mdc-button-container-fill-color(darken(crimson, 8));
+  box-shadow: 2px 2px 4px crimson;
+}
+
 #submit-name {
   @include mdc-button-container-fill-color(darken(crimson, 8));
+  color: white;
 }
 
 $mdc-theme-secondary: #feeae6;
-//@import '@material/react-fab/index.scss';
+@import '@material/react-fab/index.scss';
 
 .expand_less {
-  //@include mdc-fab-container-color(rgb(20, 20, 20));
+  @include mdc-fab-container-color(rgb(20, 20, 20));
 }

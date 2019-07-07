@@ -55,7 +55,6 @@ export function handleLogin(a, thisComponent) {
         loginPanel.classList.add('clicked');
         loginPanel.style.height = 0;
         if (document.querySelector(".expand_less").id === "collapsed") {
-            console.log("KILLME!");
             loginPanel.style.transition = 'height 0.4s ease, padding 0.4s ease';
         }
         setTimeout(() => {

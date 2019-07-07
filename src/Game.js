@@ -4,7 +4,7 @@ import './style.css';
 import openSocket from 'socket.io-client';
 import P5Wrapper from 'react-p5-wrapper';
 // import sketch from './sktch.js';
-const socket = new openSocket('http://localhost:8000');
+const socket = new openSocket('http://192.168.1.13:8000');
 
 function sketch(p) {
     let a , b;
@@ -158,7 +158,7 @@ function sketch(p) {
     p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
         player = props.player;
         if (player !== null ) {
-            console.log(player.color);
+            console.log(`Current score: ${player.score}`);
             snake = new Snake(player.color);
             drawReady = true;
         }
@@ -283,9 +283,9 @@ function sketch(p) {
                     // am.style.transition = "none";
                 }, 1000);
             }, 0);
-            an.innerText = snakeLength;
+            an.innerText = snake.length;
             setTimeout(() => {
-                am.innerText = snakeLength;
+                am.innerText = snake.length;
             }, 1000);
         }
     }
@@ -301,7 +301,7 @@ function sketch(p) {
             if (snake.length > player.score) {
                 player.score = snake.length;
                 props.updatePlayer(player);
-                fetch(`http://localhost:3005/update-user/${player.id}`, {
+                fetch(`http://192.168.1.13:3005/update-user/${player.id}`, {
                     // mode: "cors",
                     method: "POST",
                     headers: {
@@ -311,7 +311,7 @@ function sketch(p) {
                 })
                     .catch(e => { console.log(`Error while updating user: ${e}`) })
                     .then(() => { props.onGameBegin("game-over") });
-            }
+            } else props.onGameBegin("game-over");
         };
 
         function gameOverText() {
@@ -384,7 +384,7 @@ class Game extends Component {
     }
 
     componentDidMount() {
-        /*fetch("http://localhost:3005/api")
+        /*fetch("http://192.168.1.13:3005/api")
             .then(response => response.json())
             .then(data => { this.setState({ players: data }) })
             .catch(e => { console.log(`Error while fetching players: ${e}`) });*/

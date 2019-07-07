@@ -17,8 +17,8 @@ import MaterialIcon from '@material/react-material-icon';
 import Drawer, {DrawerAppContent} from '@material/react-drawer';
 import LoggedUserPanel from "./LoggedUserPanel";
 
-const host = "http://localhost:3005";
-const socket = new openSocket('http://localhost:8000');
+const host = "http://192.168.1.13:3005";
+const socket = new openSocket('http://192.168.1.13:8000');
 
 window.addEventListener("beforeunload", (e) => {
     // e.preventDefault();
@@ -61,8 +61,10 @@ class App extends Component {
                 name: "",
                 score: -1,
                 color: ""
-            }
+            },
+            title: ""
         };
+
         this.setLoggedPlayer = this.setLoggedPlayer.bind(this);
         this.stateOfAGame = this.stateOfAGame.bind(this);
         this.gameBegin = this.gameBegin.bind(this);
@@ -92,12 +94,13 @@ class App extends Component {
                 setLoggedPlayer={this.setLoggedPlayer}
                 loggedPlayer={this.state.loggedPlayer}
             />
-        )
+        );
         else if (gameStatus === "game-over") return (
             <GameOver/>
         );
 
     }
+
 
     updatePlayer (player) {
         this.setState({ loggedPlayer: player });
@@ -108,6 +111,7 @@ class App extends Component {
     }
 
     setLoggedPlayer(player) {
+        this.setState({ stateOfGame: player.name });
         this.setState({
             loggedPlayer: {
                 id: player.id,
@@ -119,6 +123,8 @@ class App extends Component {
     }
 
     setOpponentPlayer(player) {
+        this.setState({ stateOfGame: this.state.loggedPlayer.name + " gra z " + player.name });
+        console.log(`setOpponent: ${player.name}`);
         this.setState({
             opponentPlayer: {
                 id: player.id,
@@ -133,18 +139,20 @@ class App extends Component {
         this.setState({stateOfGame: a === 1 ? "Strona główna" : "Game on!"});
     }
 
-  render() {
+
+    render() {
     return (
             <div id="canvas-box">
+                <title>{ this.state.stateOfGame } </title>
                 <header className={'main-header'}>
                     <p  id="logged-as">Grasz jako: <span id="user-name"></span></p>
-                    <h1 style={{margin: '0', padding: '25px', textAlign: 'left', color: 'white'}}>\></h1>
-                    <p style={{display: 'none'}} id="score-wrap">
+                    <h1 style={{margin: '0', padding: '25px', textAlign: 'left', color: 'white'}}>GAME PLATFORM</h1>
+                    <p style={{display: 'block'}} id="score-wrap">
                         Wynik: <span id="score">1</span><span id="score-fade">1</span>
                     </p>
                     <div>
                         <TopAppBar
-                            title={ (this.state.loggedPlayer.name !== "") ? this.state.loggedPlayer.name : this.state.stateOfGame }
+                            title={ this.state.stateOfGame }
                             navigationIcon={<MaterialIcon
                                 icon='menu'
                                 onClick={() => this.setState({open: !this.state.open})}

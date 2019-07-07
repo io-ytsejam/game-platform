@@ -11,7 +11,7 @@ function sketch (p) {
     let x = y = 210, draws = -1;
 
     let players = 0;
-    fetch('http://localhost:3005/api')
+    fetch('http://192.168.1.13:3005/api')
         .then((response) => {
             return response.json();
         })
@@ -150,7 +150,7 @@ function sketch (p) {
         return p;
     }
 
-    const socket = io('http://localhost:8000');
+    const socket = io('http://192.168.1.13:8000');
     socket.on("snakeUpdate", (move)=>{
         // HMM
     });

@@ -9,7 +9,6 @@ console.log('listening on port ', port);
 
 let users = io.sockets;
 
-let dt;
 
 
 
@@ -19,12 +18,9 @@ io.on('connection', (client) => {
     connectionsNumber++;
     console.log(`Connections: ${connectionsNumber}`)
     console.log(client.id);
-    // io.emit("userid", client.id); // should be client.id
-
-    // io.emit("update-database");
 
     client.on("newUserLoggedIn", () => {
-        console.log("I think I got this");
+        console.log("emit updateActive");
         io.emit("updateActive");
     });
 
@@ -33,22 +29,21 @@ io.on('connection', (client) => {
         io.emit("updateActive");
     });
 
-    client.on('message', (data)=>{ //dd
+    client.on('message', (data)=>{
         io.to(`${data.id}`).emit('message-received', data.message);
         console.log(data);
-        // console.log(data.id);
-        // io.emit('message-received', data);
     });
+
     client.on("invitationToGameRoom", (data)=>{
-        console.log(`Hello: ${data.name}`);
+        console.log(`Invitation sent to: ${data.name}`);
         io.to(data.id).emit("invitationToGameRoom", data);
     });
 
     client.on("invitationResponse", response => {
         console.log(`Response: ${response.response} id: ${response.senderId}`);
-        io.to(response.senderId).emit("invitationResponse", response.response);
+        io.to(response.senderId).emit("invitationResponse", response);
     });
-
+    // Beginning of building multi player
     client.on("snakeUpdate", (move)=>{
        console.log(`SOCKET MOVEX: ${move.snake.moveX}`);
        console.log(`SOCKET MOVEY: ${move.snake.moveY}`);

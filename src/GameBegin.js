@@ -54,6 +54,7 @@ class GameBegin extends Component{
       <div id="game-begin" className="popup">
         <div id="close-highlight" className="close">
               <IconButton className={'close-sign'}
+                          title={"Reload"}
                           onMouseEnter={event => rotateIn(event, 180)}
                           onMouseLeave={event => rotateOut(event)}
                           style={{transform: 'rotate(0deg'}}

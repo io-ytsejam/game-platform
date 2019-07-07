@@ -3,11 +3,9 @@ import sendData from "./SendData";
 import socket from './GameChat.js';
 
 export function loginToGame(pass, callback, socket, setter, currentPlayer) {
-    // alert(`Gitarka! ${pass}`);
-    console.log(`Handluj: ${currentPlayer.password}`);
     if (sha256(pass.value) === currentPlayer.password) {
 
-        fetch('http://localhost:3005/login-user', {
+        fetch('http://192.168.1.13:3005/login-user', {
             method: 'get',
             credentials: 'include',
             mode: 'no-cors',
@@ -29,7 +27,7 @@ export function loginToGame(pass, callback, socket, setter, currentPlayer) {
         };
 
 
-        fetch("http://localhost:3005/user-connected", {
+        fetch("http://192.168.1.13:3005/user-connected", {
             mode: "cors",
             method: "POST",
             headers: {

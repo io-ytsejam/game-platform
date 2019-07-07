@@ -40,7 +40,7 @@ router.post('/oby', (req, res) => {
   res.cookie("betterItWould", JSON.parse(req.body).first_name);
   console.log(`Gitarson: ${JSON.parse(req.body).first_name}`);
   res.send();
-})
+});
 
 router.get('/login-user', (req, res) => {
   res.send(`Cookies: ${JSON.stringify(req.cookies.betterItWould)}`);
@@ -55,7 +55,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/new-user', (req, postRes) => {
-  console.log(`Oww my Goshh!! ;;w;; WE'VE GOT SOM POST REQUEST!! ;333`);
+  console.log(`POST REQUEST`);
   // console.log(Buffer.concat(req.body).toString());
   console.log(req.body);
   // connection.connect();
@@ -134,7 +134,7 @@ router.get("/chat-bro", (req, res) => {
 
 router.get("/unload", (req, res) => {
 
-  let socket = openSocket("http://localhost:8000");
+  let socket = openSocket("http://192.168.1.13:8000");
 
   console.log("Before unload!");
   console.log(`Test cookie: ${req.cookies.io}`);
@@ -159,7 +159,7 @@ router.get("/unload", (req, res) => {
 
 let cookiesData = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://192.168.1.13:3000');
 
   let user;
 
@@ -177,7 +177,6 @@ let cookiesData = (req, res) => {
     console.log(`ONIE: ${e}`);
   }
 
-  console.log("AAAAAAAAAAAAAAAA!")
     try {
       connection.query('INSERT INTO activeUsers SET ?', user, (err, res) => {
         if (err) throw err;
@@ -192,8 +191,6 @@ let cookiesData = (req, res) => {
 router.post("/user-connected", cors(), cookiesData);
 
 router.get('/api', (req, res) => {
-  // res.cookie("gitara", "siema").send('cookie set');
-  // res.json(sendQuery('SELECT * FROM users'));
   console.log('Hello! Cookies: ', req.cookies[0]);
   // connection.connect();
   connection.query('SELECT * FROM users', (err, response, fields) => {
