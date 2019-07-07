@@ -78,8 +78,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1003">
-                  <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+                <state relative-caret-position="246">
+                  <caret line="150" column="83" selection-start-line="150" selection-start-column="83" selection-end-line="150" selection-end-column="83" />
                   <folding>
                     <element signature="e#76#115#0" expanded="true" />
                     <element signature="e#251#290#0" expanded="true" />
@@ -101,6 +101,18 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/AddUser.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +122,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Game.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="313" column="50" selection-start-line="313" selection-start-column="50" selection-end-line="313" selection-end-column="50" />
+                <state relative-caret-position="76">
+                  <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -127,18 +139,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="433">
                   <caret line="81" column="72" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="72" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -227,8 +227,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/routes/index.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-543">
-                      <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+                    <state relative-caret-position="127">
+                      <caret line="166" column="25" lean-forward="true" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
                     </state>
                   </provider>
                 </entry>
@@ -258,7 +258,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/socket.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="22">
+                    <state relative-caret-position="578">
                       <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
                     </state>
                   </provider>
@@ -290,14 +290,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>invitation</find>
-      <find>setI</find>
-      <find>this.setState</find>
-      <find>invitation.name</find>
-      <find>setS</find>
-      <find>block</find>
-      <find>titl</find>
-      <find>emit(&quot;invi</find>
       <find>emit(&quot;invita</find>
       <find>&lt;logg</find>
       <find>invitationResponse</find>
@@ -316,10 +308,18 @@
       <find>update-user</find>
       <find>&lt;game</find>
       <find>setLoggedPlayer</find>
-      <find>fab</find>
       <find>colla</find>
       <find>score</find>
       <find>if (snake.length</find>
+      <find>kill</find>
+      <find>wtf</find>
+      <find>&lt;Game</find>
+      <find>block</find>
+      <find>fab</find>
+      <find>none</find>
+      <find>game</find>
+      <find>alert</find>
+      <find>192.168.1.13</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -334,11 +334,12 @@
       <replace>rY</replace>
       <replace>snake.length</replace>
       <replace>this.speed</replace>
-      <replace>localhost</replace>
       <replace>192.168.1.13</replace>
       <replace>res</replace>
       <replace>this.props.socket</replace>
       <replace>opName</replace>
+      <replace>localxhost</replace>
+      <replace>localhost</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -363,30 +364,30 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/src/GameBegin.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/socket.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/sketch.js" />
         <option value="$PROJECT_DIR$/src/sketch.js" />
         <option value="$PROJECT_DIR$/src/GameChat.js" />
-        <option value="$PROJECT_DIR$/routes/sketch.js" />
         <option value="$PROJECT_DIR$/src/ActiveUser.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/src/handleLogin.js" />
         <option value="$PROJECT_DIR$/src/loginToGame.js" />
         <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$PROJECT_DIR$/src/InvitationMessage.js" />
-        <option value="$PROJECT_DIR$/src/LoggedUserPanel.js" />
         <option value="$PROJECT_DIR$/src/AddUser.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/LoginPanel.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/UsersFloat.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Game.js" />
+        <option value="$PROJECT_DIR$/routes/sketch.js" />
+        <option value="$PROJECT_DIR$/src/LoggedUserPanel.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -516,7 +517,7 @@
       <workItem from="1562428635890" duration="2622000" />
       <workItem from="1562448046243" duration="6880000" />
       <workItem from="1562500752871" duration="971000" />
-      <workItem from="1562518243883" duration="16060000" />
+      <workItem from="1562518243883" duration="19170000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck me">
       <created>1554070273890</created>
@@ -529,7 +530,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390170000" />
+    <option name="totallyTimeSpent" value="393280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,16 +702,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameChat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -779,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="578">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
@@ -790,16 +781,6 @@
           <caret line="55" column="50" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="50" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,41 +806,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
-          <folding>
-            <element signature="e#76#115#0" expanded="true" />
-            <element signature="e#251#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/loginToGame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="87" column="118" selection-start-line="87" selection-start-column="118" selection-end-line="87" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#440#512#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -894,10 +846,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="33" column="140" lean-forward="true" selection-start-line="33" selection-start-column="140" selection-end-line="33" selection-end-column="140" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="166" column="25" lean-forward="true" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoginPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="87" column="118" selection-start-line="87" selection-start-column="118" selection-end-line="87" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#440#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="150" column="83" selection-start-line="150" selection-start-column="83" selection-end-line="150" selection-end-column="83" />
+          <folding>
+            <element signature="e#76#115#0" expanded="true" />
+            <element signature="e#251#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="313" column="50" selection-start-line="313" selection-start-column="50" selection-end-line="313" selection-end-column="50" />
+        <state relative-caret-position="76">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoggedUserPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

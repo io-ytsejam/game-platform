@@ -759,28 +759,3 @@ socket.on('user typing', (data) => {
 socket.on('hide panel', () => {
   hidePanel(0);
 });
-
-let mongoUsers;
-/*________________________________*
-* --------------------------------*
-* ________________________________*
-* SOPHISTICATED IS THE KEYWORD !!!*
-* --------------------------------*
-* ________________________________*
-*/
-// setTimeout(() => {
-//   fetch('http://192.168.1.13:3000/api/users')
-//     .then(function(response) {
-//       return response.json();
-//     })
-//     .then(function(myJson) {
-//       mongoUsers = myJson;
-//       console.log(JSON.stringify(myJson));
-//       alert(myJson[0].name);
-//     });
-// }, 3000);
-
-
-
-
-// document.querySelector('#')

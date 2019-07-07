@@ -118,7 +118,7 @@ class GameOver extends Component {
             pics: []
         };
 
-        fetch("http://192.168.1.13:3005/profiles")
+        fetch("http://localhost:3005/profiles")
             .then(response => response.json())
             .then(data => {
                 for (let i = 0; i < data.length; i++) {

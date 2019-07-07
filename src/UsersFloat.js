@@ -54,7 +54,7 @@ class UsersFloat extends Component {
   userAdded() {
     console.log("updating...");
     this.setState({ active: !this.state.active });
-    fetch('http://192.168.1.13:3005/api')
+    fetch('http://localhost:3005/api')
         .then((response) => {
           return response.json();
         })
@@ -69,7 +69,7 @@ class UsersFloat extends Component {
 
 
   componentDidMount() {
-    fetch('http://192.168.1.13:3005/api')
+    fetch('http://localhost:3005/api')
       .then((response) => {
         return response.json();
       })

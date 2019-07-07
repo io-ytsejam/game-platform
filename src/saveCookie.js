@@ -1,4 +1,4 @@
-export function saveCookie(cookie, url, host='192.168.1.13') {
+export function saveCookie(cookie, url, host='localhost') {
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
     headers.append('Accept', 'application/json');

@@ -21,7 +21,7 @@ function gameBegin() {
 let x = y = 210, draws = -1;
 
 let players = 0;
-fetch('http://192.168.1.13:3005/api')
+fetch('http://localhost:3005/api')
   .then((response) => {
     return response.json();
   })
@@ -638,7 +638,7 @@ messageInput.addEventListener('click', (e) => {
 function loginToGame(pass) {
   if (sha256(pass.target.value) === currentPlayer.password) {
 
-    fetch('http://192.168.1.13:3005/login-user', {
+    fetch('http://localhost:3005/login-user', {
       method: 'get',
       credentials: 'include',
       mode: 'no-cors',

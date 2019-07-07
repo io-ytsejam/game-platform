@@ -14,7 +14,7 @@ function sendData(data, path, req = 'POST', credentials = false) {
   });
 
   // Set up our request
-  XHR.open(req, 'http://192.168.1.13:3005/'+path);
+  XHR.open(req, 'http://localhost:3005/'+path);
 
   if (path === "user-connected")
   XHR.withCredentials = true;

@@ -134,7 +134,7 @@ router.get("/chat-bro", (req, res) => {
 
 router.get("/unload", (req, res) => {
 
-  let socket = openSocket("http://192.168.1.13:8000");
+  let socket = openSocket("http://localhost:8000");
 
   console.log("Before unload!");
   console.log(`Test cookie: ${req.cookies.io}`);
@@ -159,15 +159,15 @@ router.get("/unload", (req, res) => {
 
 let cookiesData = (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.setHeader('Access-Control-Allow-Origin', 'http://192.168.1.13:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
   let user;
 
   try {
-    const wtf = req.body;
+    const usr = req.body;
     user = {
       id: null,
-      name: wtf.name,
+      name: usr.name,
       user_id: req.body.id,
       connection_time_ms: 1,
       socket_id: req.cookies.io

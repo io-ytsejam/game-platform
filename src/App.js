@@ -17,8 +17,8 @@ import MaterialIcon from '@material/react-material-icon';
 import Drawer, {DrawerAppContent} from '@material/react-drawer';
 import LoggedUserPanel from "./LoggedUserPanel";
 
-const host = "http://192.168.1.13:3005";
-const socket = new openSocket('http://192.168.1.13:8000');
+const host = "http://localhost:3005";
+const socket = new openSocket('http://localhost:8000');
 
 window.addEventListener("beforeunload", (e) => {
     // e.preventDefault();
@@ -147,7 +147,10 @@ class App extends Component {
                 <header className={'main-header'}>
                     <p  id="logged-as">Grasz jako: <span id="user-name"></span></p>
                     <h1 style={{margin: '0', padding: '25px', textAlign: 'left', color: 'white'}}>GAME PLATFORM</h1>
-                    <p style={{display: 'block'}} id="score-wrap">
+                    <p style={{
+                        display: (this.state.game === "playing") ? "block" : "none"
+                    }} id="score-wrap"
+                    >
                         Wynik: <span id="score">1</span><span id="score-fade">1</span>
                     </p>
                     <div>

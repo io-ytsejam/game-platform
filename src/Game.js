@@ -4,7 +4,7 @@ import './style.css';
 import openSocket from 'socket.io-client';
 import P5Wrapper from 'react-p5-wrapper';
 // import sketch from './sktch.js';
-const socket = new openSocket('http://192.168.1.13:8000');
+const socket = new openSocket('http://localhost:8000');
 
 function sketch(p) {
     let a , b;
@@ -218,6 +218,7 @@ function sketch(p) {
 
     function checkIfLose(snake) {
         if (snake.moveX[snake.length-1] === -15 || snake.moveX[snake.length-1] === 435) {
+            gameOver(player);
         } else if (snake.moveY[snake.length-1] === -15 || snake.moveY[snake.length-1] === 435) {
             gameOver(player);
         }
@@ -301,7 +302,7 @@ function sketch(p) {
             if (snake.length > player.score) {
                 player.score = snake.length;
                 props.updatePlayer(player);
-                fetch(`http://192.168.1.13:3005/update-user/${player.id}`, {
+                fetch(`http://localhost:3005/update-user/${player.id}`, {
                     // mode: "cors",
                     method: "POST",
                     headers: {
@@ -384,7 +385,7 @@ class Game extends Component {
     }
 
     componentDidMount() {
-        /*fetch("http://192.168.1.13:3005/api")
+        /*fetch("http://localhost:3005/api")
             .then(response => response.json())
             .then(data => { this.setState({ players: data }) })
             .catch(e => { console.log(`Error while fetching players: ${e}`) });*/

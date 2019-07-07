@@ -24,8 +24,10 @@ którego, można wysłać innemu graczowi zaproszenie do czatu, a w przyszłośc
 W planach jest także dodanie trybu multiplayer
 
 ### Znane błędy
-* Użytkownik przestaje być aktywny po odświeżeniu strony. Jeżeli przeglądarka, lub jej karta z aplikacją zostanie 
-zamknięta bez wcześniejszego przeładowania, użtkownik zostanie w bazie aktywych graczy  
+* Użytkownik przestaje być aktywny wyłącznie po odświeżeniu strony. Jeżeli przeglądarka, lub jej karta z aplikacją zostanie 
+zamknięta bez wcześniejszego przeładowania, użtkownik zostanie w bazie aktywych graczy.
+
+* Dodawanie obrazków przy dodawaniu nowego gracza nie działa
 
 ### Instalacja i uruchomienie
 

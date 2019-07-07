@@ -24,14 +24,13 @@ class LoggedUserPanel extends Component {
         this.props.socket.on("invitationToGameRoom", (data) => {
             this.setState({invitation: {is: true, name: data.name, sender: data.sender}});
             this.setState({ opName: data.name });
-            alert(`Name: ${this.state.opName}`);
         });
         //
 
         this.props.socket.on("updateActive", () => {
             // alert("oho");
             console.log(`Fetch active`);
-            fetch("http://192.168.1.13:3005/active-users")
+            fetch("http://localhost:3005/active-users")
                 .then(response => response.json())
                 .then((data) => {
                     console.log(`Data received in czekanko: ${JSON.stringify(data)}`);
@@ -44,11 +43,7 @@ class LoggedUserPanel extends Component {
 
         this.props.socket.on("invitationResponse", res => {
             alert(`Twoje ${this.state.opName} zaproszenie zostało ${res.response}`);
-            alert(`Twój przeciwnik: ${res.name}`);
             this.props.setOpponentPlayer({id: this.props.senderSocketId, name: res.name, score: "", color: ""});
-
-
-            console.log(`Twoje zaproszenie zostało ${res}`);
         });
         //
 
@@ -83,7 +78,7 @@ class LoggedUserPanel extends Component {
 
 
     componentDidMount() {
-        fetch("http://192.168.1.13:3005/active-users")
+        fetch("http://localhost:3005/active-users")
             .then(data => data.json())
             .then(data => {
                 this.setState({activeUsers: data})
