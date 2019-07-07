@@ -44,6 +44,4 @@ zamknięta bez wcześniejszego przeładowania, użtkownik zostanie w bazie aktyw
 #### Notka końcowa
 
 Zdaje sobie sprawę z mocno wczesnego etapu rozwoju mojej aplikacji, aczkolwiek spowodowane jest to jedynie ograniczeniem 
-czasowym, powstałym przez pewne okoliczności, które zmusiły mnie do aplikowania o pracę już teraz.
-
-Aplikacja stworzona przez Marcina Skrzymowskiego
+czasowym. Aplikacja będzie w przyszłości rozwijana.
