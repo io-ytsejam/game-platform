@@ -19,7 +19,7 @@
     "@material/shape": "^0.43.0",
     "@material/theme": "^3.0.0",
     "JSON": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
